@@ -45,17 +45,17 @@ export const OnTrackSection = () => {
         gsap.timeline({
           scrollTrigger: {
             trigger: highlight.parentElement,
-            start: "top 70%",
+            start: "top 90%",
             toggleActions: "restart none restart none"
           }
         }).to(highlight, {
           scaleX: 1,
-          duration: 0.4,
+          duration: 0.7,
           ease: "power3.out"
         }).to(highlight, {
           scaleX: 0,
           transformOrigin: "right center",
-          duration: 0.4,
+          duration: 0.7,
           ease: "power3.in",
           delay: 0.15
         })
@@ -63,7 +63,7 @@ export const OnTrackSection = () => {
   }, [])
 
   return (
-    <section className="2xl:pt-24 pb-10 md:pb-30 px-5 w-full bg-black">
+    <section className="2xl:pt-24 pb-10 2xl:pb-30 px-5 w-full bg-black">
       <div className="relative h-30 md:h-57.5 lg:h-77.5 xl:h-95 2xl:h-162.5 overflow-hidden">
         <h2 className="ontrack-title flex flex-col font-sans text-[6em] md:text-[12em] lg:text-[16em] xl:text-[21em] 2xl:text-[30em] uppercase leading-none text-white relative z-10">
           <strong className="font-bungee text-default opacity-0">
@@ -82,7 +82,7 @@ export const OnTrackSection = () => {
           </h3>
           <span className="ontrack-highlight absolute inset-0 block bg-default z-10" />
         </div>
-        <div className="relative ontrack-paragraph">
+        <div className="relative">
           <p className="mt-6 font-sans text-2xl text-white lg:max-w-lg">
             Since his F1 debut with McLaren in 2019, Lando Norris has been all in –
             pushing limits, chasing wins, and bringing the

@@ -61,7 +61,6 @@ export const CalendarSection = () => {
     })
   }, [])
 
-
   useGSAP(() => {
     const section = sectionRef.current
     const follower = document.getElementById("circuit-follower")

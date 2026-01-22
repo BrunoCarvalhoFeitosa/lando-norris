@@ -160,7 +160,7 @@ export const CareerSection = () => {
       </div>
       <div className="py-20 lg:py-60 lg:pb-20 px-5 flex flex-col lg:flex-row md:gap-20">
         <div className="flex flex-col xl:w-150 2xl:w-175 gap-5 md:gap-0">
-          <div className="mb-5 md:mb-0 flex md:flex-col items-center md:items-start order-2 md:order-1">
+          <div className="mb-5 md:mb-0 flex md:flex-col items-center md:items-start gap-2 md:gap-0 order-2 md:order-1">
             <h3 className="relative md:px-3 w-fit overflow-hidden font-sans text-2xl md:text-7xl font-semibold uppercase tracking-tighter text-white">
               <span>
                 F1 Career

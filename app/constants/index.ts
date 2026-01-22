@@ -557,40 +557,36 @@ export const followList = [
     id: 1,
     image: "/images/timeline/image-timeline-01.webp",
     rotation: "rotate-z-[-10deg]",
-    translation: "translate-y-[-5%]",
+    translation: "translate-y-[20%]",
   },
   {
     id: 2,
     image: "/images/timeline/image-timeline-02.webp",
-    rotation: "rotate-z-[4deg]",
+    rotation: "rotate-z-[2deg]",
+    translation: "translate-y-[20%]",
   },
   {
     id: 3,
     image: "/images/timeline/image-timeline-03.webp",
-    rotation: "rotate-z-[-4deg]",
-    translation: "translate-y-[-5%]",
+    rotation: "rotate-z-[10deg]",
+    translation: "translate-y-[20%]",
   },
   {
     id: 4,
     image: "/images/timeline/image-timeline-04.webp",
     rotation: "rotate-z-[4deg]",
-    translation: "translate-y-[5%]",
+    translation: "translate-y-[20%]",
   },
   {
     id: 5,
     image: "/images/timeline/image-timeline-05.webp",
     rotation: "rotate-z-[-10deg]",
-  },
-  {
-    id: 6,
-    image: "/images/timeline/image-timeline-06.webp",
-    rotation: "rotate-z-[4deg]",
-    translation: "translate-y-[5%]",
+    translation: "translate-y-[20%]",
   },
   {
     id: 7,
     image: "/images/timeline/image-timeline-07.webp",
     rotation: "rotate-z-[-3deg]",
-    translation: "translate-y-[10%]",
+    translation: "translate-y-[20%]",
   }
 ]

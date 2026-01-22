@@ -40,18 +40,18 @@ export const CountdownSection = () => {
 
   return (
     <section className="py-20 w-full bg-black">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-center gap-4">
+        <h3 className="relative w-fit font-sans text-sm font-bold uppercase tracking-tighter text-white overflow-hidden">
+          <span>Next race begins in</span>
+        </h3>
         <div className="relative">
-          <div className="flex font-sans font-bold text-white text-3xl md:text-4xl tracking-tight">
+          <div className="flex font-sans font-bold text-white text-3xl md:text-4xl 2xl:text-[8em] tracking-tight">
             <Time value={timeLeft.days} label="D" />
             <Time value={timeLeft.hours} label="H" />
             <Time value={timeLeft.minutes} label="M" />
             <Time value={timeLeft.seconds} label="S" />
           </div>
         </div>
-        <h3 className="relative w-fit font-sans text-sm font-bold uppercase tracking-tighter text-white overflow-hidden">
-          <span>Bringing the fight</span>
-        </h3>
       </div>
     </section>
   )
