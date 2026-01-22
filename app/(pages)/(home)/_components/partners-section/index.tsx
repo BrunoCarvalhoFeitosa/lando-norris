@@ -112,7 +112,7 @@ export const PartnersSection = () => {
   }, [])
 
   return (
-    <section className="py-30 2xl:pt-20 2xl:pb-60 w-full bg-black overflow-hidden">
+    <section className="py-30 2xl:pt-20 2xl:pb-40 w-full bg-black overflow-hidden">
       <div className="px-5">
         <div className="relative h-20 md:h-41 lg:h-56 xl:h-65 2xl:h-116 overflow-hidden">
           <h2 className="partners-title flex flex-col font-sans text-[3.6em] md:text-[8em] lg:text-[10.8em] xl:text-[13.7em] 2xl:text-[20em] uppercase leading-none text-white relative z-10">
