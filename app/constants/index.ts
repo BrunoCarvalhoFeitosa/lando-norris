@@ -513,7 +513,7 @@ export const calendarList = [
   {
     id: "21",
     country: "Brazil",
-    flag: "/svgs/flag-Brazil.png",
+    flag: "/svgs/flag-brazil.png",
     when: "06 – 08 Nov",
     laps: "71",
     distance: "305.939",

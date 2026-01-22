@@ -76,7 +76,7 @@ export const HelmetsSection = () => {
                   />
                 </div>
                 <div className="absolute bottom-0 right-0 z-30 p-2">
-                  <p className="font-sans text-sm md:text-base font-bold text-white">
+                  <p className="font-sans text-sm 2xl:text-base font-bold text-white">
                     {helmet.label}
                     <strong className="ml-1 text-default">
                       {helmet.year}

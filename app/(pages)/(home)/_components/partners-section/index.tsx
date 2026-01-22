@@ -10,6 +10,7 @@ import { BrandQuadrant } from "@/app/components/common/vectors/brands/brand-quad
 import { BrandTumi } from "@/app/components/common/vectors/brands/brand-tumi"
 import { BrandHilton } from "@/app/components/common/vectors/brands/brand-hilton"
 import { useGSAP } from "@gsap/react"
+import { BrandGoogle } from "@/app/components/common/vectors/brands/google"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -150,14 +151,16 @@ export const PartnersSection = () => {
                 <BrandRalphLauren width="200" height="100" fill="#fff" />
                 <BrandMind width="140" height="100" fill="#fff" />
                 <BrandPlaystation width="70" height="70" fill="#fff" />
+                <BrandGoogle width="140" height="60" fill="#fff" />
                 <BrandQuadrant width="220" height="60" fill="#fff" />
                 <BrandTumi width="140" height="80" fill="#fff" />
                 <BrandHilton width="140" height="100" fill="#fff" />
               </div>
-              <div className="flex items-center gap-8 2xl:gap-20 pr-20">
+              <div className="flex items-center gap-12 md:gap-16 2xl:gap-20 pr-20">
                 <BrandRalphLauren width="200" height="100" fill="#fff" />
                 <BrandMind width="140" height="100" fill="#fff" />
                 <BrandPlaystation width="70" height="70" fill="#fff" />
+                <BrandGoogle width="140" height="60" fill="#fff" />
                 <BrandQuadrant width="220" height="60" fill="#fff" />
                 <BrandTumi width="140" height="80" fill="#fff" />
                 <BrandHilton width="140" height="100" fill="#fff" />

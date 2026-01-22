@@ -123,7 +123,7 @@ export const Footer = () => {
   }, [])
 
   return (
-    <div className="relative w-full p-5 pb-20 xl:pb-5 md:pt-50 xl:pt-70 bg-default footer-root">
+    <footer className="relative w-full p-5 pb-20 2xl:pb-5 md:pt-50 xl:pt-70 bg-default footer-root">
       <div className="w-full h-full flex flex-col justify-center items-center">
         <div className="relative w-full rounded-lg bg-black overflow-hidden
           aspect-[1688/3480] md:aspect-[1688/2466] lg:aspect-[1688/1620] xl:aspect-[1688/1400] 2xl:aspect-[1688/896]
@@ -172,7 +172,7 @@ export const Footer = () => {
               />
             </div>
           </div>
-          <div className="absolute top-[15%] md:top-[60%] md:-translate-y-[60%] left-10 md:left-[5%] xl:left-[10%] w-fit">
+          <div className="absolute top-[15%] md:top-[60%] md:-translate-y-[60%] left-10 md:left-[5%] xl:left-[7%] 2xl:left-[10%] w-fit">
             <h6 className="font-sans text-xs font-semibold uppercase text-center text-white">
               Pages
             </h6>
@@ -205,8 +205,8 @@ export const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="absolute top-[15%] md:top-[60%] md:-translate-y-[60%] right-10 md:right-[5%] xl:right-[10%] w-fit">
+          </div>%
+          <div className="absolute top-[15%] md:top-[60%] md:-translate-y-[60%] right-10 md:right-[5%] xl:right-[7%] 2xl:right-[10%] w-fit">
             <h6 className="font-sans text-xs font-semibold uppercase text-center text-white">
               Follow on
             </h6>
@@ -271,6 +271,6 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   )
 }
