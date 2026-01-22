@@ -9,9 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.26.2",
+    "gsap": "^3.14.2",
+    "motion": "^12.26.2",
     "next": "16.1.2",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "react-responsive": "^10.0.1",
+    "zustand": "^5.0.10"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
