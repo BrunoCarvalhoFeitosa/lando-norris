@@ -187,12 +187,15 @@ export const Menu = () => {
 
   return (
     <div className={clsx(
-      "menu fixed top-0 left-0 px-10 w-full h-dvh bg-musgo transition-transform duration-700 overflow-hidden z-99",
+      "menu fixed top-0 left-0 md:px-10 w-full h-dvh bg-musgo transition-transform duration-700 overflow-hidden z-99",
       open ? "translate-y-0" : "-translate-y-full"
     )}>
       <div className="relative w-full h-full">
-        <div className="absolute top-0 left-0 w-full h-full">
+        <div className="hidden md:block absolute top-0 left-0 w-full h-full">
           <Pattern width="100%" stroke="#363b24" />
+        </div>
+        <div className="md:hidden absolute top-0 left-0 w-full h-full opacity-15">
+          <Pattern height="100dvh" stroke="#fff" />
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 lg:left-5 lg:translate-x-0 -rotate-12 lg bottom-5 lg:bottom-4 z-99">
           <Signature width="300" height="120" color="#d2ff00" />

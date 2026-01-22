@@ -29,7 +29,7 @@ export const HelmetsSection = () => {
           <Pattern height="100%" stroke="#222" />
         </div>
         <div className="md:hidden absolute left-0 top-0 w-full h-full">
-          <Pattern height="40%" stroke="#222" />
+          <Pattern height="40%" stroke="#555" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
           {helmetsList.map((helmet) => {
@@ -44,7 +44,12 @@ export const HelmetsSection = () => {
                 className="group relative xl:even:translate-y-40 overflow-hidden cursor-pointer"
               >
                 <div className="relative overflow-hidden z-10">
-                  <Grid width="100%" height="100%" stroke="#222" />
+                  <div className="hidden md:block">
+                    <Grid width="100%" height="100%" stroke="#222" />
+                  </div>
+                  <div className="md:hidden">
+                    <Grid width="100%" height="100%" stroke="#555" />
+                  </div>
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Image

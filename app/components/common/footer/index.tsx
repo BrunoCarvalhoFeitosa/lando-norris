@@ -140,7 +140,7 @@ export const Footer = () => {
         >
           <div className="absolute w-full h-full">
             <div className="lg:hidden">
-              <Pattern height="140dvh" stroke="#222" />
+              <Pattern height="140dvh" stroke="#555" />
             </div>
           </div>
           <div className="absolute inset-0 -z-1 overflow-hidden">

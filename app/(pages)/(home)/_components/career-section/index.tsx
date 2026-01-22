@@ -123,8 +123,11 @@ export const CareerSection = () => {
 
   return (
     <section ref={sectionRef} className="relative w-full bg-black">
-      <div className="absolute top-0 left-0 w-full h-full">
+      <div className="hidden md:block absolute top-0 left-0 w-full h-full">
         <Pattern stroke="#222" height="100%" />
+      </div>
+      <div className="md:hidden absolute top-0 left-0 w-full h-full">
+        <Pattern stroke="#555" height="100%" />
       </div>
       <div className="animate-pictures relative flex overflow-hidden">
         <h2 className="translate-y-13 lg:translate-y-40 2xl:translate-y-52 font-sans text-[90vw] 2xl:text-[114em] font-bold leading-none text-white">
