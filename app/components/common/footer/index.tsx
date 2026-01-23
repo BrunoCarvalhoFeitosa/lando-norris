@@ -2,6 +2,7 @@
 import gsap from "gsap"
 import clsx from "clsx"
 import { ScrollTrigger } from "gsap/all"
+import { useEffect, useRef } from "react"
 import { usePathname } from "next/navigation"
 import { useGSAP } from "@gsap/react"
 import Image from "next/image"
@@ -10,13 +11,18 @@ import { Pattern } from "../vectors/pattern"
 import { Signature } from "../vectors/signature"
 import { MenuLine } from "../vectors/menu-line"
 import { menuList, socialMediaList } from "@/app/constants"
-import { BrandRalphLauren } from "../vectors/brands/brand-ralph-lauren"
-import { BrandMind } from "../vectors/brands/brand-mind"
-import { BrandPlaystation } from "../vectors/brands/brand-playstation"
-import { BrandQuadrant } from "../vectors/brands/brand-quadrant"
-import { BrandTumi } from "../vectors/brands/brand-tumi"
-import { BrandHilton } from "../vectors/brands/brand-hilton"
-import { useEffect, useRef } from "react"
+import { BrandRalphLauren } from "@/app/components/common/vectors/brands/brand-ralph-lauren"
+import { BrandMonster } from "@/app/components/common/vectors/brands/brand-monster"
+import { BrandMind } from "@/app/components/common/vectors/brands/brand-mind"
+import { BrandUber } from "@/app/components/common/vectors/brands/brand-uber"
+import { BrandPlaystation } from "@/app/components/common/vectors/brands/brand-playstation"
+import { BrandGoogle } from "@/app/components/common/vectors/brands/brand-google"
+import { BrandAndroid } from "@/app/components/common/vectors/brands/brand-android"
+import { BrandQuadrant } from "@/app/components/common/vectors/brands/brand-quadrant"
+import { BrandInKart } from "@/app/components/common/vectors/brands/brand-in-kart"
+import { BrandPureEletric } from "@/app/components/common/vectors/brands/brand-pure-eletric"
+import { BrandTumi } from "@/app/components/common/vectors/brands/brand-tumi"
+import { BrandHilton } from "@/app/components/common/vectors/brands/brand-hilton"
 gsap.registerPlugin(ScrollTrigger)
 
 export const Footer = () => {
@@ -238,17 +244,29 @@ export const Footer = () => {
                 className="flex items-center gap-12 md:gap-16 2xl:gap-20 pr-20 scale-50 md:scale-75 lg:scale-100"
               >
                 <BrandRalphLauren width="200" height="100" fill="#d2ff00" />
+                <BrandMonster width="200" height="100" fill="#d2ff00" />
+                <BrandUber width="140" height="100" fill="#d2ff00" />
                 <BrandMind width="140" height="100" fill="#d2ff00" />
-                <BrandPlaystation width="70" height="70" fill="#d2ff00" />
+                <BrandPlaystation width="60" height="60" fill="#d2ff00" />
+                <BrandGoogle width="140" height="60" fill="#d2ff00" />
+                <BrandAndroid width="140" height="60" fill="#d2ff00" />
                 <BrandQuadrant width="220" height="60" fill="#d2ff00" />
+                <BrandInKart width="100" height="60" fill="#d2ff00" />
+                <BrandPureEletric width="110" height="80" fill="#d2ff00" />
                 <BrandTumi width="140" height="80" fill="#d2ff00" />
                 <BrandHilton width="140" height="100" fill="#d2ff00" />
               </div>
-              <div className="flex items-center gap-8 2xl:gap-20 pr-20">
+              <div className="flex items-center gap-12 md:gap-16 2xl:gap-20 pr-20">
                 <BrandRalphLauren width="200" height="100" fill="#d2ff00" />
+                <BrandMonster width="200" height="100" fill="#d2ff00" />
+                <BrandUber width="140" height="100" fill="#d2ff00" />
                 <BrandMind width="140" height="100" fill="#d2ff00" />
-                <BrandPlaystation width="70" height="70" fill="#d2ff00" />
+                <BrandPlaystation width="60" height="60" fill="#d2ff00" />
+                <BrandGoogle width="140" height="60" fill="#d2ff00" />
+                <BrandAndroid width="140" height="60" fill="#d2ff00" />
                 <BrandQuadrant width="220" height="60" fill="#d2ff00" />
+                <BrandInKart width="100" height="60" fill="#d2ff00" />
+                <BrandPureEletric width="110" height="80" fill="#d2ff00" />
                 <BrandTumi width="140" height="80" fill="#d2ff00" />
                 <BrandHilton width="140" height="100" fill="#d2ff00" />
               </div>
