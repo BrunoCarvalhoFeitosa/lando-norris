@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- PROJECT LOGO -->
+<p align="center">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/lando-norris">
+    <img src="https://i.pinimg.com/236x/53/d9/bf/53d9bf763985901b38ab0a81c745fc65.jpg" alt="Logo" width="200" weight="200" />
+  </a>
+  <p align="center">
+    Landing page responsiva e totalmente animada feita com Next.js, Typescript, GSAP e TailwindCSS com a temática do piloto de Fórmula 1 Lando Norris.
+  </p>
 
-## Getting Started
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito com</a></li>
+        <li><a href="#hospedagem">Hospedagem</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">Licenças</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ol>
+</details>
 
-First, run the development server:
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Home
+Página totalmente responsiva, se adapta a qualquer tamanho de tela.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://github.com/user-attachments/assets/0b012746-d209-46b5-91e8-afc7a19393a6
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Feito com
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* [Next.js](https://nextjs.org)
+* [Typescript](https://www.typescriptlang.org)
+* [GSAP](https://gsap.com)
+* [TailwindCSS](https://tailwindcss.com)
+* [Vercel](https://vercel.com)
 
-## Learn More
+### Hospedagem
 
-To learn more about Next.js, take a look at the following resources:
+A aplicação está em produção neste link: (https://bruno-carvalho-feitosa-lando-norris.vercel.app).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- GETTING STARTED -->
+## Iniciando o projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Primeiramente será necessário clonar este projeto em (https://github.com/BrunoCarvalhoFeitosa/lando-norris.git), após o download será necessário abrir este projeto no seu editor e no terminal digitar npm install ou yarn, posteriormente é só rodar em seu terminal o comando npm run dev, após isso, a página será aberta em seu navegador.
 
-## Deploy on Vercel
+### Pré-requisitos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Instalação
+
+1. Clone o repositório
+   ```sh
+   https://github.com/BrunoCarvalhoFeitosa/lando-norris.git
+   ```
+2. Instale os pacotes do NPM
+   ```sh
+   npm install
+   ```
+   
+3. Inicie o projeto
+   ```sh
+   npm run dev
+   ```   
+
+<!-- LICENSE -->
+## License
+
+Distribuído sob a licença MIT.
+
+<!-- CONTACT -->
+## Contato
+
+Bruno Carvalho Feitosa - [GitHub](https://github.com/BrunoCarvalhoFeitosa) - [LinkedIn](https://www.linkedin.com/in/bruno-carvalho-feitosa/)
