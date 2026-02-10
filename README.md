@@ -76,12 +76,19 @@ Primeiramente será necessário clonar este projeto em (https://github.com/Bruno
 3. Inicie o projeto
    ```sh
    npm run dev
-   ```   
+   ```
 
-<!-- LICENSE -->
-## License
+## Agradecimentos e Créditos
 
-Distribuído sob a licença MIT.
+Este projeto foi desenvolvido exclusivamente para fins educacionais, com o objetivo de estudar e praticar desenvolvimento front-end por meio da recriação de interfaces reais.
+
+O design e a identidade visual utilizados como inspiração pertencem ao site oficial do piloto **Lando Norris**, desenvolvido pela agência **Off+Brand**.
+
+- 🌐 Site oficial do Lando Norris: https://landonorris.com  
+- 🎨 Projeto e design original por Off+Brand: https://www.itsoffbrand.com/our-work/lando-norris  
+
+Todos os direitos do design original pertencem aos seus respectivos criadores.  
+Este projeto não é oficial, não possui fins comerciais e não possui qualquer afiliação com Lando Norris ou com a agência responsável.
 
 <!-- CONTACT -->
 ## Contato
