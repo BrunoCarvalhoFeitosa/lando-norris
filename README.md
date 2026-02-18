@@ -25,7 +25,6 @@
         <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#license">Licenças</a></li>
     <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
